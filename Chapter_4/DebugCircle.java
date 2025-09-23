@@ -3,12 +3,6 @@
 public class DebugCircle
 {
    
-   public static void main(String[] args)
-   {
-   
-    }
-
-
       private int radius;
       private int diameter;
       private final double PI = 3.14159;
