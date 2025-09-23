@@ -1,7 +1,7 @@
 
   
-   public class DebugCircle
-   {
+public class DebugCircle
+{
    
    public static void main(String[] args)
    {
