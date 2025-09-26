@@ -7,11 +7,9 @@ import java.util.Scanner;
         public static void main(String [] args)
         {
             Scanner scanner = new Scanner(System.in);
-            int radius;
-            
-
+        
             System.out.print("Enter a radius for a circle >> ");
-            radius = scanner.nextInt();
+            int radius = scanner.nextInt();
             DebugCircle c = new DebugCircle(radius);
 
             System.out.println("The radius is " + c.getRadius());
