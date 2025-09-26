@@ -24,8 +24,8 @@ import java.util.Scanner;
 
             mode = input.nextLine();
             
-            trip1 = new DebugTrip(destinationCity);
-            trip2 = new DebugTrip(departureCity, mode);
+            trip1 = new DebugTrip(destinationCity, departureCity, mode);
+            trip2 = new DebugTrip(destinationCity, departureCity, mode);
             trip3 = new DebugTrip(destinationCity, departureCity, mode);
             display(trip1);
             display(trip2);
