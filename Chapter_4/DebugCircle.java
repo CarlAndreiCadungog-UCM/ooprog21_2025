@@ -1,36 +1,35 @@
-
-  
-public class DebugCircle
-{
-   
-      private int radius;
-      private int diameter;
-      private final double PI = 3.14159;
-      private double area;
-      
-   public DebugCircle(int r)
+ 
+   public class DebugCircle
    {
-   
-         radius = r;
-         diameter = 2 * r;
-         area = PI * r * r;
+      
+         private int radius;
+         private int diameter;
+         private final double PI = 3.14159;
+         private double area;
+         
+         public DebugCircle(int r)
+         {
+         
+               radius = r;
+               diameter = 2 * r;
+               area = PI * r * r;
       }
-      
-   public int getRadius()
-   {
-      return radius;
-   }
-   
-   public double getDiameter()
-   {
-      return diameter;
-   }
-   
-   public double getArea()
-   {
-      return area;
-   }
-   
+            
+         public int getRadius()
+         {
+            return radius;
+      }
+         
+         public double getDiameter()
+         {
+            return diameter;
+      }
+         
+         public double getArea()
+         {
+            return area;
+      }
+         
  
 }
 
