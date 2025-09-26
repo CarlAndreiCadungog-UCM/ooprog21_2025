@@ -11,8 +11,8 @@
     }
         public DebugPen(String color, String point)
         {
-            color = color;
-            point = point;
+            this.color = color;
+            this.point = point;
     }
 
         public String getColor()
