@@ -14,7 +14,7 @@ import java.util.Scanner;
                System.out.print("Enter number of days >> ");
                days = keyboard.nextInt();
                
-            while(day <= days){
+            while(day < days){
 
                money = 2 * money;
                day++;
