@@ -1,4 +1,4 @@
-import java.util.Arrays;
+import java.util.Arrays;//this is the library you will use when working with arrays
 
 public class ArraysDemo {
 
